@@ -36,5 +36,5 @@ echo "komik :". $produk1-> penulis, $produk1 -> penerbit;
 echo "<br>";
 echo "Buku ". $produk2->getLabel();
 $infoProduk1 = new CetakInfoTerbaru();
-echo $infoProduk1->cetak($produk);
+echo $infoProduk1->cetak($produk1);
  ?>
