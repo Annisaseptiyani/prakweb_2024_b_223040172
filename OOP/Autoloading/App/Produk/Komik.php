@@ -1,5 +1,7 @@
 <?php 
 
+
+
 class Komik extends Produk implements InfoProduk {
     public $jmlHalaman;
 

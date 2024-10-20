@@ -36,7 +36,3 @@ echo $obj2->halo();
 echo $obj2->halo();
 
 
-
-
-
-?>

@@ -35,5 +35,4 @@ class Coba {
 $obj = new Coba;
 echo $obj->kelas;
 
-// 
-?>
+

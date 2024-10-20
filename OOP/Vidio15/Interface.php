@@ -6,10 +6,10 @@ interface InfoProduk{
 
 abstract class Produk {
     protected $judul, 
-        $penulis,
-        $penerbit,
-        $harga,
-        $diskon = 0;
+              $penulis,
+             $penerbit,
+             $harga,
+             $diskon = 0;
 
     public function __construct( $judul = "judul", $penulis = "penulis", $penerbit = "penerbit", $harga = 0 ) {
         $this->judul = $judul;
