@@ -1,4 +1,4 @@
-Options -Multiview
+Options -Multiviews
 
 RewriteEngine On 
 RewriteCond %{REQUEST_FILENAMA} !-d
