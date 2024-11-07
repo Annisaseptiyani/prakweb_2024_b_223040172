@@ -1,6 +1,14 @@
 <div class="container mt-3">
+
+<div class="row">
+  <div class="col-lg-6">
+    <? Flasher::flash();?>
+  </div>
+
+</div>
+
 <div class ="row">
-    <div class="col-6">
+    <div class="col-lg-6">
       <!-- Button trigger modal -->
 <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#forModal">
   Tambah data mahasiswa
