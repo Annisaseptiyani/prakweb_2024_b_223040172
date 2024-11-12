@@ -7,12 +7,12 @@ $(function() {
 $('. tampilModalUbah').on('click', function() {
    $('#formModalLabel').html('Ubah Data Mahasiswa');
    $('.modal-footer button[type=submit]').html('Ubah Data');
-   $('.modal-body form').attr('action','http://localhost/praweb_2024_b_223040172/mvc/public/mahasiswa/ubah');
+   $('.modal-body form').attr('action','http://localhost/prakweb_2024_b_223040172/mvc/public/mahasiswa/ubah');
 
    const id = $(this).data('id');
 
    $.ajax({
-    url: 'http://localhost/praweb_2024_b_223040172/mvc/public/mahasiswa/getubah', 
+    url: 'http://localhost/prakweb_2024_b_223040172/mvc/public/mahasiswa/getubah', 
     data: {id :id},
     method: 'post',
     dataType: 'json',
